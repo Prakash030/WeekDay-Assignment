@@ -1,0 +1,29 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 20vw;
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 0px !important;
+}
+.datePosted{
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 0px !important;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    border-radius: 12px;
+    padding: 0.3rem;
+    max-width: 360px;
+    margin-bottom: 20px;
+}
+.companyName{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: #8b8b8b;
+}
+.jobRole{
+    font-size: 14px;
+    line-height: 1.5;
+}
