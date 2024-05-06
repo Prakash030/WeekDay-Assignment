@@ -2,6 +2,8 @@ import React, {CSSProperties} from 'react'
 import './card.css'
 import sandTime from '../../assets/sandTime.png'
 import avatar from '../../assets/avatar.png'
+import { Tooltip } from 'react-tooltip'
+
 
 // const cardObject = {
 //     companyName: "Dropbox",
@@ -61,7 +63,11 @@ const Card = ({cardObject}) => {
             </div>
             <div className='salary'>
                 Estimated Salary: {cardObject.minJdSalary}K - {cardObject.maxJdSalary}K {cardObject.salaryCurrencyCode} 
-                ✅
+                <span
+                data-tooltip-id="my-tooltip"
+                data-tooltip-content="Estimated Salary Provided By Company"
+                data-tooltip-place="top"
+                >✅</span>
             </div>
             <div>
                 <p className='aboutCompany'>About Company:</p>
@@ -93,7 +99,12 @@ const Card = ({cardObject}) => {
                     filter: "blur(1px)"
                 }}/>
                 <span>Unlock referral asks</span></button>
+                <Tooltip id="my-tooltip" style={{
+                    fontSize: "8px",
+                    backgroundColor: "#8b8b8b",
+                }} />
         </div>
+        
     )
 }
 
