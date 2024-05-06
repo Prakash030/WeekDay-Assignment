@@ -1,8 +1,11 @@
-.groupStyles{
+
+
+.groupStyles {
     display: 'flex';
     align-items: 'center';
-    justify-content: 'space-between';
+    justify-content: 'space-evenly';
 }
+
 .groupBadgeStyles {
     background-color: '#EBECF0';
     border-radius: '2em';
@@ -14,4 +17,11 @@
     min-width: 1;
     padding: '0.16666666666667em 0.5em';
     text-align: 'center';
-};
+}
+
+@media screen and (max-width: 768px){
+    .headContainer{
+      padding-left: 80px;
+    }
+    
+  }

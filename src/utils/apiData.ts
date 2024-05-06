@@ -1,9 +1,9 @@
-export const fetchSampleJdJSON = async () => {
+export const fetchSampleJdJSON = async (limit: number) => {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
   
     const body = JSON.stringify({
-      limit: 10,
+      limit: limit,
       offset: 0
     });
   
