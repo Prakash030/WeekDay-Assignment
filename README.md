@@ -30,7 +30,7 @@ The application will start at [http://localhost:5173/](http://localhost:5173/).
 
 ## Live Link
 
-You can also access the live version of the application at [Your Live Link](http://your-live-link.com).
+You can also access the live version of the application at [Live Link](https://week-day-assignment-7f1jcemww-prakashs-projects-bb97bab2.vercel.app/).
 
 
 
