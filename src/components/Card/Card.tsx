@@ -85,7 +85,7 @@ const Card = ({cardObject}) => {
                 <h3 className='expDesc'>Minimum Experience</h3>
                 <p className='expYear'>{cardObject.minExp} years</p>
             </div>
-            <button className='buttonApply'>⚡Easy Apply</button>
+            <button className='buttonApply' onClick={() => window.open(cardObject.jdLink)}>⚡Easy Apply</button>
             <button className='buttonreferral'>
                 <img src={avatar} alt="" height={25} style={{
                     marginRight: "5px",
@@ -98,7 +98,7 @@ const Card = ({cardObject}) => {
                     borderRadius: "50%",
                     filter: "blur(1px)"
                 }}/>
-                <span>Unlock referral asks</span></button>
+                <span onClick={() => window.open(cardObject.jdLink)}>Unlock referral asks</span></button>
                 <Tooltip id="my-tooltip" style={{
                     fontSize: "8px",
                     backgroundColor: "#8b8b8b",
